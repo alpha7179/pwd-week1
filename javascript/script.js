@@ -1,10 +1,9 @@
 function changeText() {
     const intro = document.getElementById('intro');
     const messages = [
-        '웹 개발은 정말 재미있어요!',
-        'JavaScript로 상호작용을 만들 수 있습니다.',
-        'GitHub Pages로 무료 호스팅이 가능해요!',
-        '계속 공부하면 더 멋진 것을 만들 수 있어요!'
+        '전공 : 디지털미디어학과',
+        '학번: 202221046',
+        '성명: 배민우',
     ];
     
     const randomMessage = messages[Math.floor(Math.random() * messages.length)];
